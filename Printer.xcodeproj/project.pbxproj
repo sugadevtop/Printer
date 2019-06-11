@@ -51,30 +51,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A06FC0A225D913200D65272 /* Blocks */ = {
-			isa = PBXGroup;
-			children = (
-				0ADD82C91DFA531400B2F416 /* Command.swift */,
-				0ADD82D41DFBE99800B2F416 /* Receipt.swift */,
-				0ADD82D61DFBF29E00B2F416 /* Block.swift */,
-				0A06FC0B225D9ABC00D65272 /* TextBlock.swift */,
-				0A06FC0D225D9D4F00D65272 /* QRCodeBlock.swift */,
-				0A06FC0F225D9F1F00D65272 /* DividingBlock.swift */,
-				0A06FC13225DAB4600D65272 /* ImageBlock.swift */,
-			);
-			path = Blocks;
-			sourceTree = "<group>";
-		};
-		0A06FC11225D9F4A00D65272 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				0ADD82C51DF9495100B2F416 /* PrinterTableViewController.swift */,
-				0A7713141DF907D50009867F /* CentralManagerDelegate.swift */,
-				0ADD82C71DF95EBD00B2F416 /* PeripheralDelegate.swift */,
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
 		0A7712EE1DF905AE0009867F = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +70,18 @@
 		0A7712FA1DF905AE0009867F /* Printer */ = {
 			isa = PBXGroup;
 			children = (
+				0ADD82C91DFA531400B2F416 /* Command.swift */,
+				0ADD82D41DFBE99800B2F416 /* Receipt.swift */,
+				0ADD82D61DFBF29E00B2F416 /* Block.swift */,
+				0A06FC0B225D9ABC00D65272 /* TextBlock.swift */,
+				0A06FC0D225D9D4F00D65272 /* QRCodeBlock.swift */,
+				0A06FC0F225D9F1F00D65272 /* DividingBlock.swift */,
+				0A06FC13225DAB4600D65272 /* ImageBlock.swift */,
+				0ADD82C51DF9495100B2F416 /* PrinterTableViewController.swift */,
+				0A7713141DF907D50009867F /* CentralManagerDelegate.swift */,
+				0ADD82C71DF95EBD00B2F416 /* PeripheralDelegate.swift */,
 				0A7713121DF905E20009867F /* PrinterManager.swift */,
 				0ADD82D81DFE75EC00B2F416 /* PrinterError.swift */,
-				0A06FC11225D9F4A00D65272 /* UI */,
-				0A06FC0A225D913200D65272 /* Blocks */,
 				0A7712FB1DF905AE0009867F /* Printer.h */,
 				0A7712FC1DF905AE0009867F /* Info.plist */,
 			);
